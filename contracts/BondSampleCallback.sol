@@ -3,7 +3,7 @@ pragma solidity 0.8.15;
 
 import {BondBaseCallback} from "./bases/BondBaseCallback.sol";
 import {IBondAggregator} from "./interfaces/IBondAggregator.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "solmate/src/tokens/ERC20.sol";
 import {TransferHelper} from "./lib/TransferHelper.sol";
 
 /// @title Bond Callback

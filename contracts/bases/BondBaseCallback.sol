@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: AGPL-3.0
 pragma solidity 0.8.15;
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
-import {ReentrancyGuard} from "solmate/utils/ReentrancyGuard.sol";
-import {Ownable} from "openzeppelin/access/Ownable.sol";
+import {ERC20} from "solmate/src/tokens/ERC20.sol";
+import {ReentrancyGuard} from "solmate/src/utils/ReentrancyGuard.sol";
+import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {TransferHelper} from "../lib/TransferHelper.sol";
 
 import {IBondCallback} from "../interfaces/IBondCallback.sol";
