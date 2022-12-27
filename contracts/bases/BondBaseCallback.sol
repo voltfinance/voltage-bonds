@@ -30,7 +30,7 @@ import {IBondAggregator} from "../interfaces/IBondAggregator.sol";
 ///      Teller serving that market for the amount of Payout Tokens equivalent to the
 ///      capacity of a market when created.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 abstract contract BondBaseCallback is IBondCallback, Ownable, ReentrancyGuard {
     using TransferHelper for ERC20;
 

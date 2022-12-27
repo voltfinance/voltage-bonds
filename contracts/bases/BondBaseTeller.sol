@@ -30,7 +30,7 @@ import {FullMath} from "../lib/FullMath.sol";
 ///      Bond Tokens for the underlying Payout Token. A Teller requires one or more Auctioneer
 ///      contracts to be deployed to provide markets for users to purchase bonds from.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 abstract contract BondBaseTeller is IBondTeller, Auth, ReentrancyGuard {
     using TransferHelper for ERC20;
     using FullMath for uint256;

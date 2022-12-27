@@ -26,7 +26,7 @@ import {FullMath} from "./lib/FullMath.sol";
 ///      The Aggregator contract should be deployed first since Tellers, Auctioneers, and
 ///      Callbacks all require it in their constructors.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract BondAggregator is IBondAggregator, Auth {
     using FullMath for uint256;
 

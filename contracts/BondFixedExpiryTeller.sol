@@ -26,7 +26,7 @@ import {FullMath} from "./lib/FullMath.sol";
 ///      as ERC20 tokens. Vesting timestamps are rounded to the nearest day to avoid
 ///      duplicate tokens with the same name/symbol.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract BondFixedExpiryTeller is BondBaseTeller, IBondFixedExpiryTeller {
     using TransferHelper for ERC20;
     using FullMath for uint256;

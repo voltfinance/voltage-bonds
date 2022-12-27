@@ -20,7 +20,7 @@ import {TransferHelper} from "./lib/TransferHelper.sol";
 ///      checks if quote tokens have been passed in and transfers payout tokens from the
 ///      contract.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract BondSampleCallback is BondBaseCallback {
     using TransferHelper for ERC20;
 

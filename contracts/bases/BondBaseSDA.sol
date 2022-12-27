@@ -30,7 +30,7 @@ import {FullMath} from "../lib/FullMath.sol";
 ///      uses a Sequential Dutch Auction pricing system to buy a target amount of quote
 ///      tokens or sell a target amount of payout tokens over the duration of a market.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 abstract contract BondBaseSDA is IBondSDA, Auth {
     using TransferHelper for ERC20;
     using FullMath for uint256;

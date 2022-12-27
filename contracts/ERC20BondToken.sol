@@ -21,7 +21,7 @@ import {CloneERC20} from "./lib/CloneERC20.sol";
 /// @dev This contract uses Clones (https://github.com/wighawag/clones-with-immutable-args)
 ///      to save gas on deployment and is based on VestedERC20 (https://github.com/ZeframLou/vested-erc20)
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract ERC20BondToken is CloneERC20 {
     /* ========== ERRORS ========== */
     error BondToken_OnlyTeller();

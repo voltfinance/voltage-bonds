@@ -19,7 +19,7 @@ import {IBondFixedExpiryTeller} from "./interfaces/IBondFixedExpiryTeller.sol";
 ///      Bond Base Sequential Dutch Auctioneer contract specific to creating bond markets where
 ///      all purchases on that market vest at a certain timestamp.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract BondFixedExpirySDA is BondBaseSDA {
     /* ========== CONSTRUCTOR ========== */
     constructor(

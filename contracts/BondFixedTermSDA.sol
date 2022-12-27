@@ -18,7 +18,7 @@ import {IBondTeller} from "./interfaces/IBondTeller.sol";
 ///      Bond Base Auctioneer contract specific to creating bond markets where
 ///      purchases vest in a fixed amount of time after purchased (rounded to the day).
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract BondFixedTermSDA is BondBaseSDA {
     /* ========== CONSTRUCTOR ========== */
     constructor(

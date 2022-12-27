@@ -25,7 +25,7 @@ import {ERC1155} from "./lib/ERC1155.sol";
 ///      and tokenizing bond markets where purchases vest in a fixed amount of time
 ///      (rounded to the day) as ERC1155 tokens.
 ///
-/// @author Oighty, Zeus, Potted Meat, indigo
+/// @author voltage.finance
 contract BondFixedTermTeller is BondBaseTeller, IBondFixedTermTeller, ERC1155 {
     using TransferHelper for ERC20;
     using FullMath for uint256;
